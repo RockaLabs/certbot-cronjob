@@ -77,6 +77,10 @@ Just follow the logging file:
 tail /path_to_file/renewssl.logs -f
 ```
 
+### Step 3
+
+If everything is fine setup back your crontab schedule (`crontab -e`).
+
 ---
 
 Happy coding!
