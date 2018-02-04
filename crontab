@@ -1,0 +1,1 @@
+0 0 1 * * /path_to_file/renewssl.sh >> /path_to_file/renewssl.logs 2>&1
