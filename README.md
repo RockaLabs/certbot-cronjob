@@ -92,7 +92,7 @@ tail /path_to_file/renewssl.logs -f
 
 The output should looks like this:
 
-![Logging output](logging-output.png)
+![Logging output](log-output.png)
 
 #### Step 3
 
