@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/rockalabs/certbot-cronjob.svg)](https://github.com/rockalabs/certbot-cronjob/issues)
+[![GitHub forks](https://img.shields.io/github/forks/rockalabs/certbot-cronjob.svg)](https://github.com/rockalabs/certbot-cronjob/network)
+[![GitHub stars](https://img.shields.io/github/stars/rockalabs/certbot-cronjob.svg?style=social&label=Star)](https://github.com/rockalabs/certbot-cronjob/)
+[![GitHub followers](https://img.shields.io/github/followers/rockalabs.svg?style=social&label=Follow)]()
+
 # Certbot Cron Job
 
 This is a tiny Cron Job workaround for certbot nginx issue related in this [thread](https://github.com/certbot/certbot/issues/5486).
