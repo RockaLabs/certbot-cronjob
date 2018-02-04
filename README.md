@@ -66,6 +66,14 @@ If you have followed above steps correctly, your cronjob should be ready :)
 
 If you want to test if your cron job is working just follow this steps:
 
+#### Step 0
+
+Run manually bash script to test it:
+
+```
+bash /path_to_file/renewssl.sh
+```
+
 #### Step 1
 
 Update your crontab schedule to run every minute `* * * * *`. Open and edit your crontab with: `crontab -e`:
@@ -81,6 +89,10 @@ Just follow the logging file:
 ```
 tail /path_to_file/renewssl.logs -f
 ```
+
+The output should looks like this:
+
+![Logging output](logging-output.png)
 
 #### Step 3
 
