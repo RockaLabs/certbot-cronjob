@@ -41,7 +41,7 @@ if [[ ! -z $WEB_SERVICE ]] && [[ ! -z $EMAIL_CERTBOT ]] && [[ ! -z $DOMAINS_CERT
 
     utils.printer "Step 2: Create or renew certificates"
     utils.printer "Start cerbot service"
-    certbot certonly --standalone --non-interactive --agree-tos --email=$EMAIL_CERTBOT $DOMAINS_CERTBOT
+    certbot certonly --standalone --expand --non-interactive --agree-tos --email=$EMAIL_CERTBOT $DOMAINS_CERTBOT
     utils.checkServicePortStatus certbot $PORT
 
     utils.printer "Step 3: Restart $WEB_SERVICE service"
